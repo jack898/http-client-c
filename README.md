@@ -1,4 +1,4 @@
-# Cross-platform C HTTP Client
+# Cross-platform HTTP Client
 A simple HTTP client, compatible with both Windows and Linux*. Makes an HTTP GET request to user-specified host and port,
 and outputs the HTTP response (or timeout error) after 5 seconds. Mostly just a learning project for me but feel free to fork as desired!
 
