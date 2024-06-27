@@ -22,13 +22,12 @@
 
 typedef struct addrinfo addr_info;
 
-void set_timeout(int sockfd, int ms);
+int set_timeout(int sockfd, int ms);
 int initialize(int argc, char *argv[], addr_info *config, addr_info **result, int *sockfd);
 void cleanup(int sockfd, addr_info *result, char *buf);
 int est_addrinfo(const char *host, const char *port, addr_info *config, addr_info **result);
 int est_winsock();
 int est_connection(addr_info *result);
-void set_timeout(int sockfd, int ms);
 void request(int sockfd, char *buf);
 
 
